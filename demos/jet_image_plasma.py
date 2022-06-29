@@ -29,8 +29,8 @@ from cherab.core.model import ExcitationLine, RecombinationLine
 from cherab.openadas import OpenADAS
 
 from cherab.jet.machine import import_jet_mesh
-from cherab.edge2d.models import make_edge2d_emitter
-from cherab.edge2d import load_edge2d_from_tranfile
+from cherab.oedge.models import make_edge2d_emitter
+from cherab.oedge import load_edge2d_from_tranfile
 
 
 ###############################################################################

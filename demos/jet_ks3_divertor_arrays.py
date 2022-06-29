@@ -28,7 +28,7 @@ from cherab.core.utility import PhotonToJ
 from cherab.core.atomic import Line, deuterium
 from cherab.core.model import ExcitationLine, RecombinationLine
 from cherab.openadas import OpenADAS
-from cherab.edge2d import load_edge2d_from_tranfile
+from cherab.oedge import load_edge2d_from_tranfile
 from cherab.jet.machine import import_jet_mesh
 from cherab.jet.spectroscopy.ks3 import load_ks3_inner_array, load_ks3_outer_array, array_polychromator
 

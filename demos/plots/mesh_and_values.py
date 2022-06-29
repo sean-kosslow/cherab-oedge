@@ -19,7 +19,7 @@
 
 import matplotlib.pyplot as plt
 
-from cherab.edge2d import load_edge2d_from_tranfile
+from cherab.oedge import load_edge2d_from_tranfile
 
 # Load the simulation.
 tranfile = '/home/pheliste/cmg/catalog/edge2d/jet/81472/jul1816/seq#2/tran'

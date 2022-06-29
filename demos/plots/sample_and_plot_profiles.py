@@ -24,7 +24,7 @@ from scipy import linalg
 
 from cherab.core.atomic import deuterium, beryllium
 from cherab.core.math import sample2d, sample2d_grid, sample3d, sample3d_grid, samplevector3d_grid
-from cherab.edge2d import load_edge2d_from_tranfile
+from cherab.oedge import load_edge2d_from_tranfile
 
 
 ###############################################################################

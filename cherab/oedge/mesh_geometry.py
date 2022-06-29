@@ -22,9 +22,11 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import PolyCollection
 
 
-class Edge2DMesh:
+class OEDGEMesh:
     """
-    Edge2DMesh geometry object.
+    OEDGEMesh/Edge2DMesh geometry object.
+
+    The OEDGE Mesh structure is the same as the Edge2D mesh structure so the function is unchanged.
 
     The Edge2D mesh is quadrilateral. Each mesh cell is denoted by four vertices with one centre
     point. Vertices may be shared with neighbouring cells. The centre points should be unique.

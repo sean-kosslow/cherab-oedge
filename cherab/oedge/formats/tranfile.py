@@ -26,8 +26,8 @@ from cherab.core.utility import PhotonToJ
 from cherab.core.atomic.elements import lookup_isotope, lookup_element
 from cherab.openadas import OpenADAS
 
-from cherab.edge2d.mesh_geometry import Edge2DMesh
-from cherab.edge2d.edge2d_plasma import Edge2DSimulation, prefer_element
+from cherab.oedge.mesh_geometry import Edge2DMesh
+from cherab.oedge.edge2d_plasma import Edge2DSimulation, prefer_element
 
 
 # TODO: find out if EDGE2D supports non-hydrogen (e.g. helium as a main ion) plasmas

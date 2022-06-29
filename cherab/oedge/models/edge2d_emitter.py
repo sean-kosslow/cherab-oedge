@@ -23,7 +23,7 @@ from raysect.primitive import Cylinder, Subtract
 from cherab.core.math.mappers import AxisymmetricMapper
 from cherab.tools.emitters import RadiationFunction
 
-from cherab.edge2d import Edge2DMesh, Edge2DFunction
+from cherab.oedge import Edge2DMesh, Edge2DFunction
 
 
 def make_edge2d_emitter(edge2d_mesh, radiation_function, parent=None, step=0.01):

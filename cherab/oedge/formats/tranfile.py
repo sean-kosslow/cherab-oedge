@@ -20,7 +20,7 @@
 import os
 import numpy as np
 
-from eproc import dataread
+# from eproc import dataread
 
 from cherab.core.utility import PhotonToJ
 from cherab.core.atomic.elements import lookup_isotope, lookup_element
